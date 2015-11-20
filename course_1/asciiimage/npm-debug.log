@@ -1,0 +1,103 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/local/bin/node', '/usr/local/bin/npm', 'publish' ]
+2 info using npm@1.4.3
+3 info using node@v0.10.26
+4 verbose publish [ '.' ]
+5 verbose cache add [ '.', null ]
+6 verbose cache add name=undefined spec="." args=[".",null]
+7 verbose parsed url { protocol: null,
+7 verbose parsed url   slashes: null,
+7 verbose parsed url   auth: null,
+7 verbose parsed url   host: null,
+7 verbose parsed url   port: null,
+7 verbose parsed url   hostname: null,
+7 verbose parsed url   hash: null,
+7 verbose parsed url   search: null,
+7 verbose parsed url   query: null,
+7 verbose parsed url   pathname: '.',
+7 verbose parsed url   path: '.',
+7 verbose parsed url   href: '.' }
+8 silly lockFile 3a52ce78- .
+9 verbose lock . /home/wcyang/.npm/3a52ce78-.lock
+10 verbose tar pack [ '/home/wcyang/tmp/npm-1886-rZb7laBR/1447487318985-0.5482830689288676/tmp.tgz',
+10 verbose tar pack   '.' ]
+11 verbose tarball /home/wcyang/tmp/npm-1886-rZb7laBR/1447487318985-0.5482830689288676/tmp.tgz
+12 verbose folder .
+13 info prepublish asciiimage@0.0.0
+14 silly lockFile 1f1177db-tar tar://.
+15 verbose lock tar://. /home/wcyang/.npm/1f1177db-tar.lock
+16 silly lockFile 8108c248-18985-0-5482830689288676-tmp-tgz tar:///home/wcyang/tmp/npm-1886-rZb7laBR/1447487318985-0.5482830689288676/tmp.tgz
+17 verbose lock tar:///home/wcyang/tmp/npm-1886-rZb7laBR/1447487318985-0.5482830689288676/tmp.tgz /home/wcyang/.npm/8108c248-18985-0-5482830689288676-tmp-tgz.lock
+18 silly lockFile 1f1177db-tar tar://.
+19 silly lockFile 1f1177db-tar tar://.
+20 silly lockFile 8108c248-18985-0-5482830689288676-tmp-tgz tar:///home/wcyang/tmp/npm-1886-rZb7laBR/1447487318985-0.5482830689288676/tmp.tgz
+21 silly lockFile 8108c248-18985-0-5482830689288676-tmp-tgz tar:///home/wcyang/tmp/npm-1886-rZb7laBR/1447487318985-0.5482830689288676/tmp.tgz
+22 verbose tar unpack /home/wcyang/tmp/npm-1886-rZb7laBR/1447487318985-0.5482830689288676/tmp.tgz
+23 silly lockFile 5ddd68ec-18985-0-5482830689288676-package tar:///home/wcyang/tmp/npm-1886-rZb7laBR/1447487318985-0.5482830689288676/package
+24 verbose lock tar:///home/wcyang/tmp/npm-1886-rZb7laBR/1447487318985-0.5482830689288676/package /home/wcyang/.npm/5ddd68ec-18985-0-5482830689288676-package.lock
+25 silly lockFile 8108c248-18985-0-5482830689288676-tmp-tgz tar:///home/wcyang/tmp/npm-1886-rZb7laBR/1447487318985-0.5482830689288676/tmp.tgz
+26 verbose lock tar:///home/wcyang/tmp/npm-1886-rZb7laBR/1447487318985-0.5482830689288676/tmp.tgz /home/wcyang/.npm/8108c248-18985-0-5482830689288676-tmp-tgz.lock
+27 silly gunzTarPerm modes [ '755', '644' ]
+28 silly gunzTarPerm extractEntry package.json
+29 silly gunzTarPerm extractEntry index.js
+30 silly gunzTarPerm extractEntry 2008825642626577801.png
+31 silly gunzTarPerm extractEntry lin-png-256x256-Leonardo_256x256.png-256x256.png
+32 silly lockFile 5ddd68ec-18985-0-5482830689288676-package tar:///home/wcyang/tmp/npm-1886-rZb7laBR/1447487318985-0.5482830689288676/package
+33 silly lockFile 5ddd68ec-18985-0-5482830689288676-package tar:///home/wcyang/tmp/npm-1886-rZb7laBR/1447487318985-0.5482830689288676/package
+34 silly lockFile 8108c248-18985-0-5482830689288676-tmp-tgz tar:///home/wcyang/tmp/npm-1886-rZb7laBR/1447487318985-0.5482830689288676/tmp.tgz
+35 silly lockFile 8108c248-18985-0-5482830689288676-tmp-tgz tar:///home/wcyang/tmp/npm-1886-rZb7laBR/1447487318985-0.5482830689288676/tmp.tgz
+36 verbose tar pack [ '/home/wcyang/.npm/asciiimage/0.0.0/package.tgz',
+36 verbose tar pack   '/home/wcyang/tmp/npm-1886-rZb7laBR/1447487318985-0.5482830689288676/package' ]
+37 verbose tarball /home/wcyang/.npm/asciiimage/0.0.0/package.tgz
+38 verbose folder /home/wcyang/tmp/npm-1886-rZb7laBR/1447487318985-0.5482830689288676/package
+39 silly lockFile 5ddd68ec-18985-0-5482830689288676-package tar:///home/wcyang/tmp/npm-1886-rZb7laBR/1447487318985-0.5482830689288676/package
+40 verbose lock tar:///home/wcyang/tmp/npm-1886-rZb7laBR/1447487318985-0.5482830689288676/package /home/wcyang/.npm/5ddd68ec-18985-0-5482830689288676-package.lock
+41 silly lockFile 731e2f67-npm-asciiimage-0-0-0-package-tgz tar:///home/wcyang/.npm/asciiimage/0.0.0/package.tgz
+42 verbose lock tar:///home/wcyang/.npm/asciiimage/0.0.0/package.tgz /home/wcyang/.npm/731e2f67-npm-asciiimage-0-0-0-package-tgz.lock
+43 silly lockFile 5ddd68ec-18985-0-5482830689288676-package tar:///home/wcyang/tmp/npm-1886-rZb7laBR/1447487318985-0.5482830689288676/package
+44 silly lockFile 5ddd68ec-18985-0-5482830689288676-package tar:///home/wcyang/tmp/npm-1886-rZb7laBR/1447487318985-0.5482830689288676/package
+45 silly lockFile 731e2f67-npm-asciiimage-0-0-0-package-tgz tar:///home/wcyang/.npm/asciiimage/0.0.0/package.tgz
+46 silly lockFile 731e2f67-npm-asciiimage-0-0-0-package-tgz tar:///home/wcyang/.npm/asciiimage/0.0.0/package.tgz
+47 silly lockFile a176c627-ang-npm-asciiimage-0-0-0-package /home/wcyang/.npm/asciiimage/0.0.0/package
+48 verbose lock /home/wcyang/.npm/asciiimage/0.0.0/package /home/wcyang/.npm/a176c627-ang-npm-asciiimage-0-0-0-package.lock
+49 silly lockFile a176c627-ang-npm-asciiimage-0-0-0-package /home/wcyang/.npm/asciiimage/0.0.0/package
+50 silly lockFile a176c627-ang-npm-asciiimage-0-0-0-package /home/wcyang/.npm/asciiimage/0.0.0/package
+51 verbose tar unpack /home/wcyang/.npm/asciiimage/0.0.0/package.tgz
+52 silly lockFile 89d5df1f-ang-npm-asciiimage-0-0-0-package tar:///home/wcyang/.npm/asciiimage/0.0.0/package
+53 verbose lock tar:///home/wcyang/.npm/asciiimage/0.0.0/package /home/wcyang/.npm/89d5df1f-ang-npm-asciiimage-0-0-0-package.lock
+54 silly lockFile 731e2f67-npm-asciiimage-0-0-0-package-tgz tar:///home/wcyang/.npm/asciiimage/0.0.0/package.tgz
+55 verbose lock tar:///home/wcyang/.npm/asciiimage/0.0.0/package.tgz /home/wcyang/.npm/731e2f67-npm-asciiimage-0-0-0-package-tgz.lock
+56 silly gunzTarPerm modes [ '755', '644' ]
+57 silly gunzTarPerm extractEntry package.json
+58 silly gunzTarPerm extractEntry index.js
+59 silly gunzTarPerm extractEntry 2008825642626577801.png
+60 silly gunzTarPerm extractEntry lin-png-256x256-Leonardo_256x256.png-256x256.png
+61 silly lockFile 89d5df1f-ang-npm-asciiimage-0-0-0-package tar:///home/wcyang/.npm/asciiimage/0.0.0/package
+62 silly lockFile 89d5df1f-ang-npm-asciiimage-0-0-0-package tar:///home/wcyang/.npm/asciiimage/0.0.0/package
+63 silly lockFile 731e2f67-npm-asciiimage-0-0-0-package-tgz tar:///home/wcyang/.npm/asciiimage/0.0.0/package.tgz
+64 silly lockFile 731e2f67-npm-asciiimage-0-0-0-package-tgz tar:///home/wcyang/.npm/asciiimage/0.0.0/package.tgz
+65 verbose chmod /home/wcyang/.npm/asciiimage/0.0.0/package.tgz 644
+66 verbose chown /home/wcyang/.npm/asciiimage/0.0.0/package.tgz [ 1001, 1002 ]
+67 silly lockFile 3a52ce78- .
+68 silly lockFile 3a52ce78- .
+69 silly publish { name: 'asciiimage',
+69 silly publish   version: '0.0.0',
+69 silly publish   description: 'image to ascii',
+69 silly publish   main: 'index.js',
+69 silly publish   bin: { asciiimage: 'index.js' },
+69 silly publish   scripts: { test: 'echo "Error: no test specified" && exit 1' },
+69 silly publish   author: '',
+69 silly publish   license: 'ISC',
+69 silly publish   readme: 'ERROR: No README data found!',
+69 silly publish   _id: 'asciiimage@0.0.0',
+69 silly publish   dist: { shasum: '93cc5546ae9b5c023276360075420fa3138f75c1' },
+69 silly publish   _from: '.' }
+70 error need auth auth and email required for publishing
+70 error need auth You need to authorize this machine using `npm adduser`
+71 error System Linux 3.13.0-29-generic
+72 error command "/usr/local/bin/node" "/usr/local/bin/npm" "publish"
+73 error cwd /home/wcyang/asciiimage
+74 error node -v v0.10.26
+75 error npm -v 1.4.3
+76 error code ENEEDAUTH
+77 verbose exit [ 1, true ]
